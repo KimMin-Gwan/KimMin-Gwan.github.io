@@ -20,7 +20,7 @@ title                    : "쓸모있는 개발자의 블로그"
 title_separator          : " "
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "쓸모있는 개발자"
-description              : "Useful Developer"
+description              : "공부, 개발, 공모전, 일상 블로그"
 url                      : "https://kimmin-gwan.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -290,15 +290,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
- # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: true
-      related: false
