@@ -11,8 +11,8 @@
         <span class="nav__sub-title">블로그 공지</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Blog" %}
-                        <li><a href="/categories/Blog" class="">Blog ({{category[1].size}})</a></li>
+                    {% if category[0] == "blog" %}
+                        <li><a href="/categories/blog" class="">Blog ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -54,8 +54,8 @@
         <span class="nav__sub-title">코딩테스트 준비</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "BOJ" %}
-                        <li><a href="/categories/boj" class="">백준 ({{category[1].size}})</a></li>
+                    {% if category[0] == "baekjoon" %}
+                        <li><a href="/categories/baekjoon" class="">백준 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
