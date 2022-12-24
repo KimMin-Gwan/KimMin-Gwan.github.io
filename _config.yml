@@ -108,11 +108,11 @@ author:
   avatar           : "/assets/images/simme.png"
   bio              : "좋아하는 것은 **돈**"
   location         : "GyeongSan"
-  email            : ""
+  email            : "alsrhks2508@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "alsrhks2508@naver.com"
+      #url: "alsrhks2508@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
