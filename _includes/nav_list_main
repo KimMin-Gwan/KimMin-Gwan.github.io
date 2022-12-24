@@ -8,7 +8,24 @@
             📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <li>
-        <span class="nav__sub-title">C/C++</span>
+        <span class="nav__sub-title">블로그 공지</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Blog" %}
+                        <li><a href="/categories/Blog" class="">Blog ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Story" %}
+                        <li><a href="/categories/story" class="">story ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+        <span class="nav__sub-title">프로그래밍 기술</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
@@ -17,7 +34,24 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">Coding Test</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "python" %}
+                        <li><a href="/categories/python" class="">파이썬 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "java" %}
+                        <li><a href="/categories/java" class="">자바 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+
+        <span class="nav__sub-title">코딩테스트 준비</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "BOJ" %}
@@ -26,16 +60,67 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">서버공부</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "UnityDocs" %}
-                        <li><a href="/categories/unity-docs" class="">내 유니티 문서 ({{category[1].size}})</a></li>
+                    {% if category[0] == "argo" %}
+                        <li><a href="/categories/argo" class="">알고리즘 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">일상이야기</span>
+
+        <span class="nav__sub-title">기술스택</span>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "AI" %}
+                        <li><a href="/categories/AI" class="">AI ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Web" %}
+                        <li><a href="/categories/Web" class="">Web ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "SQL" %}
+                        <li><a href="/categories/SQL" class="">SQL ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "mongoDB" %}
+                        <li><a href="/categories/mongoDB" class="">mongoDB ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Server" %}
+                        <li><a href="/categories/Server" class="">서버공부 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+        <span class="nav__sub-title">학교공부</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "study" %}
+                        <li><a href="/categories/study" class="">study ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+
         <!--
       <li>	
             <br>      
