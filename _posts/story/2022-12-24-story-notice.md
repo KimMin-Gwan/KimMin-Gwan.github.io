@@ -3,7 +3,7 @@ title:  "#0 - 일상 내용 포스팅 공지"
 excerpt: "story 공지사항"
 
 categories:
-  -  story
+  - story
 tags:
   - [story]
 
