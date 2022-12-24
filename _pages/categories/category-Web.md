@@ -1,6 +1,6 @@
 ---
 title: "JS, node.js, exact.js, Vue.js 등등"
-layout: archiv등
+layout: archive
 permalink: categories/Web
 author_profile: true
 sidebar_main: true
