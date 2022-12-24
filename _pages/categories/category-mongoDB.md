@@ -1,5 +1,5 @@
 ---
-title: "Jekyll/Github 블로그 만들기"
+title: "mongoDB 공부"
 layout: archive
 permalink: categories/mongoDB
 author_profile: true

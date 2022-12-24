@@ -1,5 +1,5 @@
 ---
-title: "Jekyll/Github 블로그 만들기"
+title: "SQL 공부"
 layout: archive
 permalink: categories/SQL
 author_profile: true
@@ -11,4 +11,4 @@ sidebar_main: true
 ***
 
 {% assign posts = site.categories.SQL %}
-{% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
+{% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %부

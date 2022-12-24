@@ -1,5 +1,5 @@
 ---
-title: "Jekyll/Github 블로그 만들기"
+title: "학교 공부 내용 정리"
 layout: archive
 permalink: categories/study
 author_profile: true

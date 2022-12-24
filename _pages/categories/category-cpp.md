@@ -1,5 +1,5 @@
 ---
-title: "Jekyll/Github 블로그 만들기"
+title: "C ++ 개념 및 기초"
 layout: archive
 permalink: categories/cpp
 author_profile: true

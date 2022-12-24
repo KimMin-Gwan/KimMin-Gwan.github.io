@@ -1,5 +1,5 @@
 ---
-title: "Jekyll/Github 블로그 만들기"
+title: "머신러닝과 딥러닝, 데이터 사이언스 공부"
 layout: archive
 permalink: categories/AI
 author_profile: true

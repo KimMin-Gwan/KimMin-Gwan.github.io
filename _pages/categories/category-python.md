@@ -1,5 +1,5 @@
 ---
-title: "Jekyll/Github 블로그 만들기"
+title: "python 개념 및 기초"
 layout: archive
 permalink: categories/python
 author_profile: true

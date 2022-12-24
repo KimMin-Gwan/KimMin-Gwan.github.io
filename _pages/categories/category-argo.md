@@ -1,5 +1,5 @@
 ---
-title: "Jekyll/Github 블로그 만들기"
+title: "알고리즘 공부"
 layout: archive
 permalink: categories/argo
 author_profile: true

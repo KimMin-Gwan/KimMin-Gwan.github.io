@@ -1,6 +1,6 @@
 ---
-title: "Jekyll/Github 블로그 만들기"
-layout: archive
+title: "JS, node.js, exact.js, Vue.js 등등"
+layout: archiv등
 permalink: categories/Web
 author_profile: true
 sidebar_main: true

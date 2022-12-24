@@ -1,5 +1,5 @@
 ---
-title: "Jekyll/Github 블로그 만들기"
+title: "백준 문제 풀이"
 layout: archive
 permalink: categories/boj
 author_profile: true
