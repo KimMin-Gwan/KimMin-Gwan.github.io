@@ -57,10 +57,11 @@ last_modified_at: 2022-12-27
 + 정확히 예측 되었는지 평가하기 위하여 손실함수(Loss function)을 사용함
   + 컴퓨터가 연산을 반복하면서 정답과 가장 근접한 weight를 찾도록 유도한다.
   + 손실함(Loss fucntion) : 총오차를 계산하는 수식, 일반적인 신경망 학습에는 MSE와 Cross Entropy를 사용한다.
+![ML](https://user-images.githubusercontent.com/105574034/210136974-1322e6ea-2258-45de-98cd-23f375626c46.jpg)
 
 <br>
 - **MSE 와 MAE의 차이 비교**
-![Loss function](https://user-images.githubusercontent.com/105574034/210136876-741c97ae-19cc-4830-8987-df108167e6f2.jpg)![Loss_function](..\Loss_function.jpg)
+![Loss function](https://user-images.githubusercontent.com/105574034/210136876-741c97ae-19cc-4830-8987-df108167e6f2.jpg)
 
 |종류|장점|단점|
 |---|---|---|
