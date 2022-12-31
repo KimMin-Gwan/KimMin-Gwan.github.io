@@ -52,11 +52,11 @@ last_modified_at: 2022-12-27
 - 인간의 사고와 비슷하게 구현해보려는 시도에서 등장 (Neural Network)
 
 + hidden layer : 생각을 잠시 저장하는 공간
-  + 특성추출(feature extraction) : 동일한 특징이나, 특정 알고리즘에 따라 분류하여 각각의 hidden layer node 로 넘어감
+  + 특성추출(feature extraction) : 동일한 특징이나, 특정 알고리즘에 따라 분류하여 각각의 hidden layer node 로 넘어수
 
 + 정확히 예측 되었는지 평가하기 위하여 손실함수(Loss function)을 사용함
   + 컴퓨터가 연산을 반복하면서 정답과 가장 근접한 weight를 찾도록 유도한다.
-  + 손실함(Loss fucntion) : 총오차를 계산하는 수식, 일반적인 신경망 학습에는 MSE와 Cross Entropy를 사용한다.
+  + 손실함수(Loss fucntion) : 총오차를 계산하는 수식, 일반적인 신경망 학습에는 MSE와 Cross Entropy를 사용한다.
 ![ML](https://user-images.githubusercontent.com/105574034/210136974-1322e6ea-2258-45de-98cd-23f375626c46.jpg)
 
 <br>
