@@ -101,7 +101,7 @@ last_modified_at: 2023-04-16
      + Aging : 말그대로 나이를 먹는것, 오래 기다린 프로세스의 우선순위를 높여 준다.
  + 비선점형 Priority Scheduling의 가장 큰 단점은 **우선순위 역전 현상**이다.
  
- ### Highest Response Ratio Next(HRRN) 방식
+### Highest Response Ratio Next(HRRN) 방식
  + 응답률이 높은 프로세스를 우선적으로 사용하는 방식의 스케줄링 기법이다.
  + 응답률을 계산하는 방법은 다음과 같다.
      + 응답률 = (기다린시간 + 필요한 CPU Burst) / 필요한 CPU Burst
